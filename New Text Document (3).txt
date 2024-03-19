@@ -1,0 +1,29 @@
+1. to get only last folder in path - basename "$(pwd)"
+2. list hidden and normal files in current dir - ls -a 
+3. less filename
+4. find / -name filename
+5. file filename
+6. du -h --max-depth=1
+7. fdisk
+8. useradd name ; passwd
+9 addgroup ravi
+
+9. cat /ect/passwd -to list users 
+10. cat /etc/group -to list groups
+11 whois google - provide all information about owner etc..
+12 dig google - provides DNS information
+13 nproc - running cpu count
+14. Environment Variables
+15. Job Scheduling (Cron Jobs)
+
+
+#!/bin/bash
+
+# Read input from the user
+read -p "Enter a word: " word
+
+# Find the position of the letter "c" in the word
+position=$(expr index "$word" "c")
+
+# Display the position of "c" in the word
+echo "Position of 'c' in the word: $position"
